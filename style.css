@@ -1,0 +1,156 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.main-container {
+  width: 100%;
+  background-color: rgb(34, 35, 35);
+  /* background-image: url("./HD-wallpaper-assassins-creed-iv-apple-black-flag-iphone-plus.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+}
+
+.logo-box {
+  position: relative;
+  left: 40px;
+}
+
+.logo-img {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+}
+
+.nav-content {
+  position: absolute;
+  right: 40px;
+  margin-top: 30px;
+}
+
+.nav-link {
+  display: inline;
+  font-weight: 700;
+  color: white;
+  margin-left: 15px;
+  padding: 10px 20px;
+}
+.nav-link:hover{
+ background: transparent;
+filter: blur(1px);
+}
+
+a {
+  text-decoration: none;
+}
+
+#sign-link{
+    background-color: rgb(226, 48, 48);
+    
+    border-radius: 20px;
+
+}
+
+/* hero section  */
+
+.hero-section {
+  position: relative;
+  margin-top: 200px;
+  display: flex;
+}
+
+.hero-section-content {
+  width: 50%;
+  padding: 30px;
+  margin-top: 90px;
+}
+
+.heading-two {
+  text-transform: uppercase;
+  padding: 30px 0px;
+  letter-spacing: 3px;
+}
+
+.heading-one {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  background-color: white;
+  width: 50%;
+  height: 40px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+
+.input-section {
+  width: 60%;
+  height: 100%;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  padding: 0px 10px;
+  color: black;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  height: 100%;
+  width: 118px;
+  border-radius: 50px;
+  background-color: rgb(210, 41, 41);
+  border: none;
+}
+
+.hero-para {
+  line-height: 40px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.hero-section-img {
+  padding: 50px;
+  width: 50%;
+  position: relative;
+}
+
+.hero-img {
+  width: 70%;
+  height: 500px;
+  margin-left: 120px;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-tag {
+  position: absolute;
+  bottom: 7%;
+  left: 23%;
+  padding: 30px 20px;
+  background-color: rgb(255, 54, 54);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+.img-disc {
+  position: absolute;
+  right: 20%;
+  top: 13%;
+  padding: 10px 20px;
+  background-color: rgb(39, 39, 243);
+  border-radius: 20px;
+}
